@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Janar.DataTable" Version="1.1.0" />
+    <PackageReference Include="Janar.DataTable" Version="1.1.1" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,12 @@
 ﻿@page "/"
+@using Janar.DataTable.Components
 
-<PageTitle>Home</PageTitle>
+<h3>Sortable DataTable</h3>
 
-<h1>Hello, world!</h1>
+<DataTable TItem="Employee"
+            Items="@employees"
+            ColumnConfigurations="@clmnOrderConfigs"
+            OnEdit="EditEmployee"
+            OnDelete="DeleteEmployee" />
 
-Welcome to your new app.
+<hr />

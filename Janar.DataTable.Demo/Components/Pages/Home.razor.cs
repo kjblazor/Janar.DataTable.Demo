@@ -4,7 +4,7 @@ using System;
 
 namespace Janar.DataTable.Demo.Components.Pages
 {
-    public partial class NugetDemo : ComponentBase
+    public partial class Home : ComponentBase
     {
         public class Employee
         {

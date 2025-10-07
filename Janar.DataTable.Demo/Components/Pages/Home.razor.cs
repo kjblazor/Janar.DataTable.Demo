@@ -13,6 +13,10 @@ namespace Janar.DataTable.Demo.Components.Pages
             public DateTime JoiningDate { get; set; }
             public string Position { get; set; } = "";
             public int YearsAtCompany => DateTime.Now.Year - JoiningDate.Year;
+            public bool Active { get; set; } = true;
+            public string Department { get; set; } = "General";
+            public bool Deleted { get; set; } = false;
+            public bool Verified { get; set; } = true;
         }
 
         List<Employee> employees = new()
@@ -65,10 +69,10 @@ namespace Janar.DataTable.Demo.Components.Pages
         };
 
         private List<ColumnConfigWithOrder<Employee>> clmnOrderConfigs => new() {
-            new() { PropertyName = "Name", Header = "👤 Name", Align = "left", Order = 1 },
-            new() { PropertyName = "Position", Header = "🎯 Position", Align = "center", Order = 2 },
-            new() { PropertyName = "Salary", Header = "💰 Salary", Align = "right", Order = 3, Template = slryDtl },
-            new () { PropertyName = "YearsAtCompany", Header = "⏳ Yrs @ Co.", Align = "center", Order = 4, Template = yrDtl }
+            new() { PropertyName = "Name", Visible = true, Header = "👤 Name", Align = "left", Order = 1 },
+            new() { PropertyName = "Position", Visible = true, Header = "🎯 Position", Align = "center", Order = 2 },
+            new() { PropertyName = "Salary", Visible = true, Header = "💰 Salary", Align = "right", Order = 3, Template = slryDtl },
+            new () { PropertyName = "YearsAtCompany", Visible = true, Header = "⏳ Yrs @ Co.", Align = "center", Order = 4, Template = yrDtl }
         };
 
         private void EditEmployee(Employee emp)

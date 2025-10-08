@@ -9,7 +9,7 @@ Built to support dynamic columns, rich formatting, searching, pagination, and **
 
 If you find this package helpful, please consider supporting me:
 
-👉 [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-green.png)](https://www.buymeacoffee.com/kjblazor)
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-green.png)](https://www.buymeacoffee.com/kjblazor)
 
 ---
 
@@ -160,7 +160,11 @@ Include these in your layout file (e.g., `_Host.cshtml`, `App.cshtml`, `index.ht
 
 ### ⚠️ Note
 
-if you cannot find the CSS/JS files in `_content/Janar.Datatable/assets/`, download datatable.css from [🔗 GitHub Demo Repository](https://github.com/kjblazor/Janar.DataTable.Demo/blob/master/Janar.DataTable.Demo/wwwroot/assets/css/datatable.css)
+If `_content/Janar.Datatable/assets/css/datatable.css` doesn't apply styles correctly,  
+you can download `datatable.css` manually from:
+
+[🔗 GitHub Demo Repository](https://github.com/kjblazor/Janar.DataTable.Demo/blob/master/Janar.DataTable.Demo/wwwroot/assets/css/datatable.css)
+
 
 ### ✅ Required Scripts
 

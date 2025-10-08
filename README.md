@@ -160,7 +160,7 @@ Include these in your layout file (e.g., `_Host.cshtml`, `App.cshtml`, `index.ht
 
 ### ⚠️ Note
 
-if you cannot find the CSS/JS files in `_content/Janar.Datatable/assets/`, download datatable.css from [🔗 GitHub Demo Repository](https://github.com/kjblazor/Janar.DataTable.Demo)
+if you cannot find the CSS/JS files in `_content/Janar.Datatable/assets/`, download datatable.css from [🔗 GitHub Demo Repository](https://github.com/kjblazor/Janar.DataTable.Demo/blob/master/Janar.DataTable.Demo/wwwroot/assets/css/datatable.css)
 
 ### ✅ Required Scripts
 

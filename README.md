@@ -296,6 +296,12 @@ Otherwise, features such as **search**, **sort**, and **pagination** will not fu
 
 When updating versions, ensure the following are reflected:
 
+### v1.1.6 (2024-10-08)
+
+* ✅ Added Readme file
+
+### v1.1.5 (2024-10-08)
+
 * ✅ Added Parameters:
 
   * `ExportButtons`

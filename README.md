@@ -314,7 +314,7 @@ When updating versions, ensure the following are reflected:
 
 ## 📚 GitHub Demo
 
-<a href="https://github.com/kjblazor/Janar.DataTable.Demo"><img src="https://www.svgrepo.com/show/361509/github-logo.svg" alt="GitHub" width="50" height="50"></a>
+<a href="https://github.com/kjblazor/Janar.DataTable.Demo"><img src="https://www.svgrepo.com/svg/475654/github-color.svg" alt="GitHub" width="50" height="50"></a>
 
 ---
 

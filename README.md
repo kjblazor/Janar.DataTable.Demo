@@ -314,7 +314,7 @@ When updating versions, ensure the following are reflected:
 
 ## 📚 GitHub Demo
 
-[🔗 GitHub Demo Repository](https://github.com/kjblazor/Janar.DataTable.Demo)
+[🔗 ![GitHub Demo Repository](https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png)](https://github.com/kjblazor/Janar.DataTable.Demo)
 
 ---
 
@@ -330,6 +330,8 @@ MIT © [Janar Group]
 * Built with ❤️ by [Janar Group](https://www.janargroup.com/) using **Blazor** and **Bootstrap 5**
 
 ---
+
+[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-green.png)](https://www.buymeacoffee.com/kjblazor)
 
 Thank you for using `Janar.DataTable`!
 

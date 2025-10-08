@@ -11,7 +11,7 @@
 
 <hr />
 
-<h3>Searchable DataTable with Custom Styles v1.1.2</h3>
+<h3>Searchable DataTable with Custom Styles v1.1.5</h3>
 
 <DataTable TItem="Employee"
            Items="@employees"
@@ -23,3 +23,18 @@
            TableStyle="table-dark table-bordered"
            ActionsButtons="false"
            UndefinedColumns="true" />
+
+<hr />
+
+<h3>Set UndefinedColumns: False, So that we can able to see only columns which we have it set Visible:true.</h3>
+
+<DataTable TItem="Employee"
+           Items="@employees"
+           ColumnConfigurations="@clmnOrderConfigs"
+           OnEdit="EditEmployee"
+           OnDelete="DeleteEmployee"
+           ExportButtons="false"
+           Search="false"
+           TableStyle="table-dark table-bordered"
+           ActionsButtons="false"
+           UndefinedColumns="false" />

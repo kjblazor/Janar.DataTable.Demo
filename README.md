@@ -313,6 +313,7 @@ When updating versions, ensure the following are reflected:
 ---
 
 ## 📚 GitHub Demo
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" width="25" height="25">
 
 [🔗 ![GitHub Demo Repository](https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png)](https://github.com/kjblazor/Janar.DataTable.Demo)
 
